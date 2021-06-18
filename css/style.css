@@ -53,6 +53,25 @@ body {
     content: "";
 }
 
+.btn-primary {
+    animation: bounce 0.75s infinite;
+}
+
+@keyframes btn-primary {
+    0% {
+        transform: scale(1, 1) translate(0px, 0px);
+    }
+    30% {
+        transform: scale(1, 0.8) translate(0px, 10px);
+    }
+    75% {
+        transform: scale(1, 1.1) translate(0px, -25px);
+    }
+    100% {
+        transform: scale(1, 1) translate(0px, 0px);
+    }
+}
+
 a {
     color: #2D6CDF;
     -webkit-transition: 0.5s;
