@@ -53,11 +53,11 @@ body {
     content: "";
 }
 
-.btn-primary {
+.flexslider .button {
     animation: bounce 0.75s infinite;
 }
 
-@keyframes btn-primary {
+@keyframes button {
     0% {
         transform: scale(1, 1) translate(0px, 0px);
     }
